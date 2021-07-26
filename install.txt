@@ -1,2 +1,17 @@
-npm install -d tailwindcss@latest postcss@latest autoprefixer@latest
-npx tailwindcss init 
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+
+npx tailwindcss init
+
+npm init -y
+
+script goşmaly
+"build": "tailwindcss build ./src/tailwind.css -o ./public/tailwind.css",
+
+npm run build
+
+npm install win-node-env
+
+script goşmaly
+"prod" : "NODE_ENV=production npx tailwindcss build ./src/tailwind.css -o ./public/tailwind.css"
+
+npm run prod
