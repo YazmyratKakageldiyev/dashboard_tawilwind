@@ -4,12 +4,20 @@ npx tailwindcss init
 
 npm init -y
 
+fayl acmaly
+/src/tailwind.css 
+
 script goşmaly
 "build": "tailwindcss build ./src/tailwind.css -o ./public/tailwind.css",
 
 npm run build
 
 npm install win-node-env
+
+tailwind.config.js gosmaly
+purge: [
+    '*.html'
+  ],
 
 script goşmaly
 "prod" : "NODE_ENV=production npx tailwindcss build ./src/tailwind.css -o ./public/tailwind.css"
