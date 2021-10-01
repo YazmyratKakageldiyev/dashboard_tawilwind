@@ -2,7 +2,7 @@ npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
 
 npx tailwindcss init
 
-npm init -y
+npx tailwindcss init
 
 fayl acmaly
 /src/tailwind.css 
